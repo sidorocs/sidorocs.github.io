@@ -3,43 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://blog.sidorocs.github.io/</loc>
+    <loc>https://sidorocs.github.io/</loc>
+    <lastmod>2024-12-30T17:30:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sidorocs.github.io/wu/root-me-xmas-2024/new-new-..-always-new-day-15/</loc>
+    <lastmod>2024-12-30T17:30:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sidorocs.github.io/wu/root-me-xmas-2024/santas-magick-sack-day-3/</loc>
+    <lastmod>2024-12-30T16:30:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sidorocs.github.io/wu/root-me-xmas-2024/</loc>
+    <lastmod>2024-12-30T16:30:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sidorocs.github.io/wu/root-me-xmas-2024/generous-santa-day-1/</loc>
+    <lastmod>2024-12-30T15:30:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sidorocs.github.io/aboutme/</loc>
     <lastmod>2024-11-17T14:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blog.sidorocs.github.io/aboutme/</loc>
+    <loc>https://sidorocs.github.io/wu/gh2024-hide-and-share/</loc>
     <lastmod>2024-11-17T14:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blog.sidorocs.github.io/wu/gh2024-hide-and-share/</loc>
+    <loc>https://sidorocs.github.io/wu/</loc>
     <lastmod>2024-11-17T14:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blog.sidorocs.github.io/wu/</loc>
-    <lastmod>2024-11-17T14:30:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.sidorocs.github.io/talk/introduction-to-secret-sharing-schemes/</loc>
+    <loc>https://sidorocs.github.io/talk/introduction-to-secret-sharing-schemes/</loc>
     <lastmod>2024-11-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blog.sidorocs.github.io/talk/</loc>
+    <loc>https://sidorocs.github.io/talk/</loc>
     <lastmod>2024-11-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blog.sidorocs.github.io/wu/fscs2024-layer-cake1-2-3/</loc>
+    <loc>https://sidorocs.github.io/wu/fscs2024-layer-cake1-2-3/</loc>
     <lastmod>2024-02-20T14:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
