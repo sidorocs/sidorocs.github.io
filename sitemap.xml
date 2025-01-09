@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://blog.sidorocs.github.io/</loc>
+    <lastmod>2024-11-17T14:30:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.sidorocs.github.io/aboutme/</loc>
+    <lastmod>2024-11-17T14:30:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.sidorocs.github.io/wu/gh2024-hide-and-share/</loc>
+    <lastmod>2024-11-17T14:30:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.sidorocs.github.io/wu/</loc>
+    <lastmod>2024-11-17T14:30:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.sidorocs.github.io/talk/introduction-to-secret-sharing-schemes/</loc>
+    <lastmod>2024-11-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.sidorocs.github.io/talk/</loc>
+    <lastmod>2024-11-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.sidorocs.github.io/wu/fscs2024-layer-cake1-2-3/</loc>
+    <lastmod>2024-02-20T14:30:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

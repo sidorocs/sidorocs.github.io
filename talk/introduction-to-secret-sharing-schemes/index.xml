@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How to share a secret - talk given during a Securimag session on Mathieu - @sidorocs</title>
+    <link>https://blog.sidorocs.github.io/talk/introduction-to-secret-sharing-schemes/</link>
+    <description>Recent content in How to share a secret - talk given during a Securimag session on Mathieu - @sidorocs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Sun, 17 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.sidorocs.github.io/talk/introduction-to-secret-sharing-schemes/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
