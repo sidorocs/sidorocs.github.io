@@ -4,7 +4,19 @@
 
   <url>
     <loc>https://sidorocs.github.io/</loc>
-    <lastmod>2024-12-30T17:30:00+00:00</lastmod>
+    <lastmod>2025-02-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sidorocs.github.io/talk/cheatsheet-lpe-linux-to-be-completed/</loc>
+    <lastmod>2025-02-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sidorocs.github.io/talk/</loc>
+    <lastmod>2025-02-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -52,12 +64,6 @@
   </url>
   <url>
     <loc>https://sidorocs.github.io/talk/introduction-to-secret-sharing-schemes/</loc>
-    <lastmod>2024-11-17T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://sidorocs.github.io/talk/</loc>
     <lastmod>2024-11-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

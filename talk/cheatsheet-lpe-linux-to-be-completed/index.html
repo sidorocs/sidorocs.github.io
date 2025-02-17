@@ -8,16 +8,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Series &middot; Mathieu - @sidorocs</title>
-  <meta name="title" content="Series &middot; Mathieu - @sidorocs" />
+  <title>Cheatsheet LPE Linux (to be completed) &middot; Mathieu - @sidorocs</title>
+  <meta name="title" content="Cheatsheet LPE Linux (to be completed) &middot; Mathieu - @sidorocs" />
   
-  <meta name="description" content="Mathieu - sidrocs&#39;s website" />
+  <meta name="description" content="A personal article that can also be useful for anyone looking to learn about Linux Privilege Escalation (LPE)" />
   
   
   
-  <link rel="canonical" href="https://sidorocs.github.io/series/" />
+  <link rel="canonical" href="https://sidorocs.github.io/talk/cheatsheet-lpe-linux-to-be-completed/" />
   
-  <link rel="alternate" type="application/rss+xml" href="/series/index.xml" title="Mathieu - @sidorocs" />
+  <link rel="alternate" type="application/rss+xml" href="/talk/cheatsheet-lpe-linux-to-be-completed/index.xml" title="Mathieu - @sidorocs" />
   
   
   
@@ -61,17 +61,17 @@
   
   
   
-  <meta property="og:url" content="https://sidorocs.github.io/series/">
+  <meta property="og:url" content="https://sidorocs.github.io/talk/cheatsheet-lpe-linux-to-be-completed/">
   <meta property="og:site_name" content="Mathieu - @sidorocs">
-  <meta property="og:title" content="Series">
-  <meta property="og:description" content="Mathieu - sidrocs&#39;s website">
+  <meta property="og:title" content="Cheatsheet LPE Linux (to be completed)">
+  <meta property="og:description" content="A personal article that can also be useful for anyone looking to learn about Linux Privilege Escalation (LPE)">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Series">
-  <meta name="twitter:description" content="Mathieu - sidrocs&#39;s website">
+  <meta name="twitter:title" content="Cheatsheet LPE Linux (to be completed)">
+  <meta name="twitter:description" content="A personal article that can also be useful for anyone looking to learn about Linux Privilege Escalation (LPE)">
 
   
   
@@ -394,13 +394,11 @@
       
 
 
- 
-
-  <header>
+ <header>
+  
+  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Cheatsheet LPE Linux (to be completed)</h1>
+  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
     
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Series</h1>
-    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
-      
 
 
 
@@ -428,21 +426,255 @@
 </div>
 
 
-    </div>
-  </header>
+  </div>
   
-
   
-
-  <section class="flex flex-wrap max-w-prose -mx-2 overflow-hidden">
     
-  </section>
+    
+      
+      
+    
+  <script>
+    var oid = "views_talk\/Cheatsheet LPE Linux (to be completed)\/_index.md"
+    var oid_likes = "likes_talk\/Cheatsheet LPE Linux (to be completed)\/_index.md"
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+  
+  </header>
+  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+    
+    <div class="min-w-0 min-h-0 max-w-prose">
+      
 
+<h1 class="relative group">Linux LPE to-do list 
+    <div id="linux-lpe-to-do-list" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#linux-lpe-to-do-list" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+
+
+<h3 class="relative group">List Users 
+    <div id="list-users" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#list-users" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<pre tabindex="0"><code>cat /etc/passwd
+</code></pre>
+
+<h3 class="relative group">Check Exploits for the Running Linux Kernel Version 
+    <div id="check-exploits-for-the-running-linux-kernel-version" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#check-exploits-for-the-running-linux-kernel-version" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<pre tabindex="0"><code>uname -a # full kernel info
+uname -r # just the version
+</code></pre>
+
+<h3 class="relative group">Check Special Groups That May Allow Privileged Command Execution 
+    <div id="check-special-groups-that-may-allow-privileged-command-execution" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#check-special-groups-that-may-allow-privileged-command-execution" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<pre tabindex="0"><code>groups
+</code></pre><p>For example, if the user is part of the <code>docker</code> group, it may be possible to mount a Docker container on the root filesystem:
+<a href="https://www.hackingarticles.in/docker-privilege-escalation/" target="_blank">https://www.hackingarticles.in/docker-privilege-escalation/</a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker run -it -v /root:/mnt alpine  <span class="c1"># or another image</span>
+</span></span></code></pre></div>
+
+<h3 class="relative group">Check Environment Variables 
+    <div id="check-environment-variables" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#check-environment-variables" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<pre tabindex="0"><code>printenv
+</code></pre>
+
+<h3 class="relative group">Find Executables with sudo Privileges 
+    <div id="find-executables-with-sudo-privileges" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#find-executables-with-sudo-privileges" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<pre tabindex="0"><code>sudo -l
+</code></pre><p><a href="https://gtfobins.github.io" target="_blank">https://gtfobins.github.io</a></p>
+<p>If you are dealing with a custom script:</p>
+<ul>
+<li>
+<p>Exploit password pattern matching:
+<a href="https://mywiki.wooledge.org/BashPitfalls#if_.5B.5B_.24foo_.3D_.24bar_.5D.5D_.28depending_on_intent.29" target="_blank">https://mywiki.wooledge.org/BashPitfalls#if_.5B.5B_.24foo_.3D_.24bar_.5D.5D_.28depending_on_intent.29</a></p>
+</li>
+<li>
+<p>Monitor executed commands (pspy) and look for plaintext credentials in commands:
+<a href="https://github.com/DominicBreuker/pspy" target="_blank">https://github.com/DominicBreuker/pspy</a></p>
+</li>
+</ul>
+
+
+<h3 class="relative group">Check Running Services / Timers 
+    <div id="check-running-services--timers" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#check-running-services--timers" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>Check ports exposed only on localhost:</li>
+</ul>
+<pre tabindex="0"><code>./linpeas
+ss -tlnp
+ps -aux # process listing
+</code></pre><ul>
+<li>List active services and timers:</li>
+</ul>
+<pre tabindex="0"><code>systemctl list-units --type service/timer --state running
+</code></pre><ul>
+<li>Print detailed information about a specific service or timer (unit):</li>
+</ul>
+<pre tabindex="0"><code>systemctl cat custom.service
+</code></pre><ul>
+<li>Get the status of a service:</li>
+</ul>
+<pre tabindex="0"><code>systemctl status apache2
+</code></pre><ul>
+<li>
+<p>Local port forwarding with SSH</p>
+</li>
+<li>
+<p>Local port forwarding with Chisel</p>
+</li>
+<li>
+<p>Monitor cron jobs / find plaintext credentials in cron commands:
+<a href="https://github.com/DominicBreuker/pspy"title="https://github.com/DominicBreuker/pspy" target="_blank">https://github.com/DominicBreuker/pspy</a></p>
+</li>
+</ul>
+
+
+<h3 class="relative group">Check Suspicious Files 
+    <div id="check-suspicious-files" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#check-suspicious-files" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>Find files owned by the current user (excluding <code>/run</code>, <code>/proc</code>, etc.):</li>
+</ul>
+<pre tabindex="0"><code>find / -user &lt;USER&gt; 2&gt;/dev/null | grep -v &#39;^/run\|^/proc\|^/sys\&#39;
+</code></pre><ul>
+<li>Search in common directories:</li>
+</ul>
+<pre tabindex="0"><code>/opt
+/var
+/tmp
+/mail
+</code></pre><p>(others?)</p>
+<ul>
+<li>Search for files by name:</li>
+</ul>
+<pre tabindex="0"><code>find / -iname *&lt;PATTERN&gt;* 2&gt;/dev/null
+</code></pre>
+
+<h3 class="relative group">Check Files with SUID Bit Set (Owned by Root) (Reported by linpeas) 
+    <div id="check-files-with-suid-bit-set-owned-by-root-reported-by-linpeas" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#check-files-with-suid-bit-set-owned-by-root-reported-by-linpeas" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Pay special attention to binary files on the system. Some may be vulnerable to Local Privilege Escalation (LPE) exploits!</p>
+
+
+<h3 class="relative group">Capabilities (Reported by linpeas) 
+    <div id="capabilities-reported-by-linpeas" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#capabilities-reported-by-linpeas" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p><a href="https://book.hacktricks.xyz/linux-hardening/privilege-escalation/linux-capabilities" target="_blank">https://book.hacktricks.xyz/linux-hardening/privilege-escalation/linux-capabilities</a></p>
+
+
+<h3 class="relative group">Non-Exhaustive List of Additional Checks 
+    <div id="non-exhaustive-list-of-additional-checks" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#non-exhaustive-list-of-additional-checks" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>■ Check if dangerous binaries have the SUID/SGID attribute (linpeas)
+■ List files not owned by me but where I have write permissions
+■ Check if critical packages (sudo, polkit, etc.) are outdated</p>
+
+    </div>
+
+
+
+
+  </section>
+  
+  <section class="mt-10 prose dark:prose-invert">
+    <p class="py-8 border-t">
+      <em>There are no articles to list here yet.</em>
+    </p>
+  </section>
   
 
+    
 
-
-      
+  
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
